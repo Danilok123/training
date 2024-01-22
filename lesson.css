@@ -1,0 +1,130 @@
+body {
+    background-color: chartreuse;
+}
+
+.iphon{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.screen {
+    width: 400px;
+    height: 800px;
+    border: 3px solid black;
+    position: absolute;
+    left: 25%;
+    border-radius: 65px;
+    background-image: url(fon1.jpg);
+}
+.left_but {
+    transform: rotate(90deg);
+    position: absolute;
+    margin-left: -121px;
+    left: 20%;
+    margin-top: 190px;
+}
+.sound {
+    background-color: #191970;
+    border-radius: 25px;
+}
+.louder {
+    width: 30px;
+    background-color: #191970;
+    border-radius: 25px;
+}
+.quieter{
+    width: 30px;
+    background-color: #191970;
+    border-radius: 25px;
+}
+.right_but {
+    transform: rotate(90deg);
+    position: absolute;
+    left: 75%;
+    margin-left: 84px;
+    margin-top: 200px;
+}
+.enabling{
+    width: 50px;
+    background-color: #191970;
+    border-radius: 25px;
+}
+.camera{
+    width: 115px;
+    border: 1px solid black;
+    border-radius: 0 0 20px 20px;
+    height: 25px;
+    margin-left: 140px;
+    background-color: black;
+}
+.camera div {
+    display: inline-block;
+    width: 10px; 
+    height: 10px;
+    background: darkgrey; 
+    color: darkgrey; 
+    line-height: 120px; 
+    font-size: 2px;
+    text-align: center;
+    border: 2px solid darkgrey;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.panel_top {
+    height: 30px;
+    margin-top: -30px;
+    display: flex;
+}
+ .left{
+    margin-left: 34px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 7px;
+ }
+ .left p{
+    color: #ffff;
+ }
+ .right p{
+    color: #ffff;
+ }
+.set1 {
+    width: 8px;
+    height: 15px;
+    background-color: #ffff;
+ }
+ .set2 {
+    width: 8px;
+    height: 20px;
+    background-color: #ffff;
+ }
+ .set3 {
+    width: 8px;
+    height: 25px;
+    background-color: #ffff;
+ }
+ .right{
+    margin-left: 170px;
+    display: flex;
+    grid-column-gap: 5px;
+ }
+ .right div{
+    margin-top: 16px;
+    width: 30px;
+    height: 16px;
+    background-color: greenyellow;
+    border-radius: 25%;
+ }
+ .connection {
+    display: flex;
+    transform: rotate(180deg);
+    margin-top: -12px;
+    height: 44px;
+    grid-column-gap: 1px;
+}
+.timeNow {
+    color: #ffff;
+    margin-top: 150px;
+    font-size: 100px;
+}
+
